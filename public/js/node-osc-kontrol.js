@@ -1,4 +1,4 @@
-/*global jQuery, io, console*/
+/*global jQuery, io, console, socket */
 
 var oscControl = oscControl || {};
 
@@ -13,7 +13,7 @@ var oscControl = oscControl || {};
         fgColor: "#222222",
         bgColor: "#000000",
         change: function (values) {
-            console.log("change : ", values);
+            oscControl.socket.emit('xy', values);
         }
     });
     oscControl.pad.css({'border': '5px solid #BBB'});
