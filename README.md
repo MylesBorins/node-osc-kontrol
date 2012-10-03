@@ -23,3 +23,5 @@ being sent by node.js.  This is done using a simple API... this could be an inte
 
 To get starting you need to obviously have node.js and npm installed
 http://nodejs.org/download/
+
+To get this running on the beagle I needed to install install libavahi-compat-libdnssd-dev to get mdns working
