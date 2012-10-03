@@ -11,7 +11,7 @@ var oscControl = oscControl || {};
         min: 0,
         max: 127,
         fgColor: "#222222",
-        bgColor: "#EEEEEE",
+        bgColor: "#000000",
         change: function (values) {
             console.log("change : ", values);
         }

@@ -1,0 +1,28 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-rendering: optimizelegibility;
+}
+p{font-size: 30px; line-height: 30px}
+div.demo{text-align: center; width: 300px; float: left}
+div.demo > p{font-size: 20px}
+
+.rack{font:bold 14px;}
+.opt{
+    background:#FFF;
+    -webkit-box-shadow: inset 0 4px 4px -2px #888, inset 0 -4px 4px -2px #888;
+    -moz-box-shadow: inset 0 4px 4px -2px #888, inset 0 -4px 4px -2px #888;
+    box-shadow: inset 0 4px 4px -2px #888, inset 0 -4px 4px -2px #888;
+}
+.opt div{
+    padding:0px 10px;
+    color:#AAA; font:10px Arial;
+}
+select {
+   width: 100px;
+   padding: 5px;font-size: 16px;
+   border: 1px solid #ccc;height: 34px;
+}
