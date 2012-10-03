@@ -1,0 +1,23 @@
+{
+	"name": "node-osc-kontrol",
+	"description": "Browser based osc controller",
+	"version": "0.1.0",
+	"main": "server.js",
+	"athor": {
+		"name": "Myles Borins",
+		"email": "myles.borins@gmail.com"
+	},
+	"dependencies": {
+		"express": "3.0.0rc4",
+		"node-osc": ">0.1.0",
+		"socket.io": "0.9.10"
+	},
+	"keywords": [
+		"osc",
+		"udp"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/TheAlphaNerd/browser-osc.git"
+	}
+}
