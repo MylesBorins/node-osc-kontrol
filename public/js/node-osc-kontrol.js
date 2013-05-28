@@ -4,7 +4,7 @@ var oscControl = oscControl || {};
 
 (function ($) {
     'use strict';
-    oscControl.socket = io.connect('http://basestation.local:1337');
+    oscControl.socket = io.connect();
     oscControl.pad = $(".pad");//
     oscControl.pad.xy({
         displayPrevious: false,

@@ -10,8 +10,7 @@
 	"dependencies": {
 		"express": "2.5.9",
 		"node-osc": ">0.1.0",
-		"socket.io": "0.9.10",
-		"mdns": "*"
+		"socket.io": "0.9.10"
 	},
 	"keywords": [
 		"osc",
@@ -19,6 +18,6 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/TheAlphaNerd/browser-osc.git"
+		"url": "git://github.com/TheAlphaNerd/node-osc-kontrol.git"
 	}
 }
